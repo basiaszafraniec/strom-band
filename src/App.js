@@ -10,7 +10,7 @@ import Support from './pages/Support';
 
 function App() {
   return (
-    <Router basename="/strom-band">
+    <Router>
       <div className="app-container">
         <Navbar />
         <Routes>

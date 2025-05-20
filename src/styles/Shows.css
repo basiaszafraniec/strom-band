@@ -1,0 +1,101 @@
+.shows-page {
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: white;
+    text-align: center;
+  }
+  
+  .page-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .shows-section {
+    margin-bottom: 3rem;
+  }
+  
+  .shows-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Arial Black', sans-serif;
+    color: #ffcc00;
+    text-transform: uppercase;
+  }
+  
+  .shows-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: center;
+  }
+  
+  .show-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .show-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .show-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .show-card h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .show-card p {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+  }
+  
+  .show-card a {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #111;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .show-card a:hover {
+    background-color: #ffd633;
+  }
+  
+  .toggle-btn {
+    margin: 2rem auto;
+    background: none;
+    border: 2px solid #ffcc00;
+    color: #ffcc00;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-btn:hover {
+    background: #ffcc00;
+    color: #111;
+  }
+  

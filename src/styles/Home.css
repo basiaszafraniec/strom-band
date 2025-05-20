@@ -1,0 +1,195 @@
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+  color: white;
+  background-color: #111;
+}
+
+main {
+  height: 100%;
+  width: 100vw;
+}
+
+.spline-scene {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.spline-scene canvas {
+  height: 100vh;
+  width: 100%;
+  position: fixed; /* or absolute if you want content layered */
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+  .hero {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }  
+
+  .logo {
+    width: 60%;
+    height: auto;
+    z-index: 2;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+  }
+  .spinning-record {
+    width: 15%;
+    height: auto;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+    animation: spinRecord 12s linear infinite;
+  }
+  
+  @keyframes spinRecord {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .announcement {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #1a1a1a;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .announcement h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .announcement p {
+    font-size: 1.1rem;
+    color: #ccc;
+  }
+
+  /* .funky-box {
+    background: #d4ff64;
+    color: #000;
+    padding: 2rem;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: rotate(-1.5deg);
+    border: 3px solid #000;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+  }
+  
+  .funky-title {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #000;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #ff69b4;
+  }
+  
+  .funky-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #222;
+  }
+  
+  .funky-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 0 #222;
+    transition: transform 0.2s ease;
+  }
+  
+  .funky-btn:hover {
+    transform: translateY(-2px);
+  } */
+  
+
+  .about-band {
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+  }
+  
+  .about-band::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* dark overlay for contrast */
+    z-index: 0;
+  }
+  
+  .about-text {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 600px;
+    animation: fadeInUp 1.5s ease both;
+  }
+  
+  .about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, #0ff, #f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .about-text a {
+    background-color: #222;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-text a:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(60px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  

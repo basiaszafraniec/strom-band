@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/strom-band/static/css/main.e55583ee.css",
-    "main.js": "/strom-band/static/js/main.e204e6d9.js",
+    "main.js": "/strom-band/static/js/main.347813a8.js",
     "static/js/208.6913b495.chunk.js": "/strom-band/static/js/208.6913b495.chunk.js",
     "static/js/293.282e6bae.chunk.js": "/strom-band/static/js/293.282e6bae.chunk.js",
     "static/js/917.6149ca7b.chunk.js": "/strom-band/static/js/917.6149ca7b.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/logo2.png": "/strom-band/static/media/logo2.a9287455fabe91cb2716.png",
     "index.html": "/strom-band/index.html",
     "main.e55583ee.css.map": "/strom-band/static/css/main.e55583ee.css.map",
-    "main.e204e6d9.js.map": "/strom-band/static/js/main.e204e6d9.js.map",
+    "main.347813a8.js.map": "/strom-band/static/js/main.347813a8.js.map",
     "208.6913b495.chunk.js.map": "/strom-band/static/js/208.6913b495.chunk.js.map",
     "293.282e6bae.chunk.js.map": "/strom-band/static/js/293.282e6bae.chunk.js.map",
     "917.6149ca7b.chunk.js.map": "/strom-band/static/js/917.6149ca7b.chunk.js.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.e55583ee.css",
-    "static/js/main.e204e6d9.js"
+    "static/js/main.347813a8.js"
   ]
 }

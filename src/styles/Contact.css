@@ -1,11 +1,11 @@
 .contact-page {
-  height: 100vh;
   background-color: #111;
   color: white;
   padding: 4rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-family: 'Arial', sans-serif;
 }
 

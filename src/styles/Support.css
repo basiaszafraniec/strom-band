@@ -1,7 +1,9 @@
 .support-page {
-    background: linear-gradient(145deg, #111, #1a1a1a);
-    color: white;
-    padding: 4rem 2rem;
+    background:url("../assets/strom-seductive.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,7 +12,7 @@
   
   .support-content {
     text-align: center;
-    max-width: 600px;
+    
   }
   
   .support-content h1 {
@@ -22,7 +24,7 @@
   .support-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    color: #ccc;
+    color: #fff;
   }
   
   .paybox-button {

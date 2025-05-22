@@ -14,7 +14,7 @@ function Support() {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          Send us a MobilePay 💙
+          Send us MobilePay 💙
         </a>
       </div>
     </div>

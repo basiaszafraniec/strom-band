@@ -43,6 +43,13 @@
   font-style: italic;
   color: #e0e0e0;
 }
+.music-page a {
+  background-color: #f177ae;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+
+}
 
 @keyframes slideDown {
   to {

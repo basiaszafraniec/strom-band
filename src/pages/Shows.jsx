@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import '../styles/Shows.css';
-import show1 from '../assets/grass.jpg';
-import show2 from '../assets/grass.jpg';
-import show3 from '../assets/grass.jpg';
-import past1 from '../assets/grass.jpg';
-import past2 from '../assets/grass.jpg';
-import past3 from '../assets/grass.jpg';
-import past4 from '../assets/grass.jpg';
+import show1 from '../assets/band-herning.JPG';
+import show2 from '../assets/band-sun.JPG';
+import show3 from '../assets/band-bar.JPG';
+import past1 from '../assets/band-domen.jpg';
+import past2 from '../assets/markus-dorm.JPG';
+import past3 from '../assets/band-gaya.jpg';
+import past4 from '../assets/band-cpn.jpg';
 import backgroundImage from '../assets/show.JPG';
+import Footer from '../components/Footer';
 
 function Shows() {
   const [showPast, setShowPast] = useState(false);
@@ -15,23 +16,23 @@ function Shows() {
   const upcoming = [
     {
       img: show1,
-      title: 'STRØM x Vega',
-      date: 'June 5, 2025',
-      desc: 'Live at Vega, Copenhagen – our biggest show yet!',
+      title: 'Herning Kulturfest',
+      date: 'June 13, 2025',
+      desc: "We're performing during Kulturfest in erning, come see us Live!",
       link: '#'
     },
     {
       img: show2,
-      title: 'Råhuset Summer Jam',
+      title: 'Amazing Future Concert',
       date: 'June 20, 2025',
-      desc: 'Outdoor summer vibes and new songs.',
+      desc: "Outdoor summer vibes and new songs like you've never seen before.",
       link: '#'
     },
     {
       img: show3,
-      title: 'Backyard Festival',
+      title: 'Anoter Epic Endeavour',
       date: 'July 10, 2025',
-      desc: 'Festival gig with other local bands.',
+      desc: 'Come see us dilly dally and get absolutely silly.',
       link: '#'
     }
   ];
@@ -39,31 +40,31 @@ function Shows() {
   const past = [
     {
       img: past1,
-      title: 'Loppen Debut',
-      date: 'March 15, 2025',
-      desc: 'First ever show – magical night.',
-      link: '#'
+      title: 'Strøm X Domen',
+      date: 'May 5th, 2025',
+      desc: 'Getting hot and sweaty in this glass ball.',
+      link: 'https://facebook.com/events/s/str%C3%B8m-x-domen/1660741231219089/'
     },
     {
       img: past2,
-      title: 'Studenthuset Aalborg',
-      date: 'Feb 22, 2025',
-      desc: 'Packed student energy!',
-      link: '#'
+      title: 'Ravnsbjerg Bar',
+      date: 'March 19th, 2025',
+      desc: 'Let us feed you all beer like a mother bird',
+      link: 'https://facebook.com/events/s/str%C3%B8m-x-natteravnen/1400643757589152/'
     },
     {
       img: past3,
-      title: 'Open Mic Tivoli',
+      title: 'Koncert på Café Gaya',
       date: 'Jan 18, 2025',
-      desc: 'Played surprise set for 300 people.',
-      link: '#'
+      desc: 'Very cozy good vibes chill omg.',
+      link: 'https://www.instagram.com/reel/C6jEKhzMAio/?igsh=Zmh6ODRsem5hcGht'
     },
     {
       img: past4,
-      title: 'Underground Jam',
+      title: 'Copenhagen Festival',
       date: 'Dec 12, 2024',
-      desc: 'Late night basement gig with friends.',
-      link: '#'
+      desc: 'First big concert hell yeah',
+      link: 'https://www.instagram.com/p/C6W3_UHs_97/?igsh=NjNrMWNtODVla204'
     }
   ];
 
@@ -106,6 +107,7 @@ function Shows() {
           </div>
         </section>
       )}
+      <Footer />
     </div>
   );
 }

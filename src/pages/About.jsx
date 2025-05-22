@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import '../styles/About.css';
-import bandImage from '../assets/band.jpg'; // replace with your actual image path
+import bandImage from '../assets/band.png';
+import Footer from '../components/Footer';
 
 function About() {
   return (
@@ -12,12 +13,22 @@ function About() {
       <div className="about-content">
         <h1>About STRØM</h1>
         <p>
-          STRØM is a raw blend of energy, emotion, and noise. Born in basements and grown on live stages,
-          we are a group of friends making music that hits hard and stays loud. From underground shows to
-          festival dreams, we’re just getting started. Whether you're here to scream the lyrics or just
-          feel something real — we’re glad you're with us.
+          Strøm - is a cool band of six musicians. They are:
+          <br/>
+          Bongi when se plays the piano you feel your soul leaving your body.
+          <br/>
+          Markus and his honey sweet voice.
+          <br/>
+          Estella - the goosebump giving base guitarist.
+          <br/>
+          Sebastian on his guitar making you want to scream.
+          <br/>
+          Izana with the sexiest voice in this universe.
+          <br/>
+          and the magician Nick drumming like you've never eard before.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

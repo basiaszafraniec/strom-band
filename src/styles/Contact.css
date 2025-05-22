@@ -7,11 +7,25 @@
   align-items: center;
   justify-content: center;
   font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  width: 100vw;
+  /* position: relative; */
+}
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 40%;
+  min-width: 400px;
+
 }
 
 .contact-info {
   text-align: center;
   margin-bottom: 2rem;
+  /* width: 50%; */
 }
 
 .contact-info h1 {

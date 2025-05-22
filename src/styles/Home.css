@@ -47,6 +47,10 @@
   text-align: center;
   background-color: #1a1a1a;
   transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .announcement h2 {
@@ -58,6 +62,14 @@
 .announcement p {
   font-size: 1.1rem;
   color: #ccc;
+}
+.announcement a {
+  color: #000;
+  background-color: #ffcc00;
+  width: 10vw;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
 }
 
 .about-band {
@@ -103,12 +115,11 @@
 }
 
 .about-text a {
-  background-color: #222;
-  color: white;
+  background-color: #ffcc00;
+  color: #000;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   border-radius: 5px;
-  font-weight: bold;
   transition: transform 0.3s ease;
 }
 

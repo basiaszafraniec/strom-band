@@ -1,12 +1,16 @@
 import '../styles/Support.css';
+import Footer from '../components/Footer';
 
 function Support() {
   return (
+    <>
     <div className="support-page">
       <div className="support-content">
         <h1>Support STRØM</h1>
         <p>
-          Love what we do? Help us keep making music by supporting us directly 💸
+          We're poor students and we need your support to keep playing for you guys. 
+          <br/>
+          If you like our music please help us grow with a small donation.
         </p>
         <a 
           className="paybox-button" 
@@ -14,10 +18,13 @@ function Support() {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          Send us MobilePay 💙
+          MobilePay Box 💙
         </a>
       </div>
+
     </div>
+      <Footer/>    
+    </>
   );
 }
 
